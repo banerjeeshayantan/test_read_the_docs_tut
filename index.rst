@@ -2,8 +2,6 @@ NBDriver
 =====================================
 NBDriver is a tool used to differentiate between driver and passenger mutations using features derived from the neighborhood sequences of somatic mutations.
 
-.. contents::
-
 Description
 -----------------------
 Using missense mutation data from experimental assays, we build a binary classifier by extracting features from the neighborhood sequences of driver and passenger mutations. Our key results are three-fold. First, we use generative models to derive the distances between the underlying probability estimates of the neighborhood sequences for the two classes of mutations. Then, we build robust classification models using repeated cross-validation experiments to derive the median values of the metrics designed to estimate the classification performances. Finally, we demonstrate our models’ ability to predict unseen coding mutations from independent test datasets derived from large mutational databases. 
