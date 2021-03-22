@@ -2,6 +2,7 @@ NBDriver
 =====================================
 NBDriver is a tool used to differentiate between driver and passenger mutations using features derived from the neighborhood sequences of somatic mutations.
 
+.. contents::
 
 Description
 -----------------------
