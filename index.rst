@@ -42,4 +42,4 @@ Preprint Link
 Acknowledgements
 ----------------------------------------------
 | `Initiative for Biological Systems Engineering <https://ibse.iitm.ac.in/>`_  
-|  `Robert Bosch Centre for Data Science and Artificial Intelligence (RBCDSAI) <https://rbcdsai.iitm.ac.in/>`_
+| `Robert Bosch Centre for Data Science and Artificial Intelligence (RBCDSAI) <https://rbcdsai.iitm.ac.in/>`_
