@@ -10,7 +10,7 @@ Overall Workflow of NBDriver
 -------------------------
 The Brown et al. dataset was used as training data for our analysis. Raw nucleotide sequences surrounding the mutations published in this study were extracted from the reference genome build GRCH37. Then, seven feature representations, namely, TFIDF Vectorizer (*k*-mer sizes 2,3 and 4), Count Vectorizer (*k*-mer sizes 2,3 and 4) and One-hot encoding were used to convert the string-based features to numerical formats. This was followed by estimating the underlying probability distributions using kernel density estimation and repeated cross-validation experiments using Random Forests, KDE classifer and Extra Trees classifier. The final model (NBDriver) was obtained using a training set derived after removing all overalapping mutations between Brown et al. and an independent test set published by Martelotto et al. Subsequent validation with four separate independent validation sets containing pathogenic data from landamrk studies was also performed to judge the ability of NBDriver in predicting unseen test instances. The overall workflow is summarized below.  
 
-.. image:: (https://user-images.githubusercontent.com/7888886/111950175-f0728100-8b07-11eb-9dea-25a3b74cf4a3.png)
+.. image:: https://user-images.githubusercontent.com/7888886/111950175-f0728100-8b07-11eb-9dea-25a3b74cf4a3.png
 
 Data
 --------------------------
@@ -22,16 +22,16 @@ Independent test dataset from a benchamrking study by Martelotto et al. consiste
 
 Dependencies
 ------------------------
-scikit-learn - 0.22.1  
-pandas - 0.25.3  
-numpy - 1.18.5  
-imblearn - 0.5.0  
-ggplot2 - 3.3.2  
-reshape2 - 1.4.4   
-stringr - 1.4.0  
-tidyr - 1.1.2  
-readr - 1.4.0  
-caret - 6.0.86
+- scikit-learn - 0.22.1  
+- pandas - 0.25.3  
+- numpy - 1.18.5  
+- imblearn - 0.5.0  
+- ggplot2 - 3.3.2  
+- reshape2 - 1.4.4   
+- stringr - 1.4.0  
+- tidyr - 1.1.2  
+- readr - 1.4.0  
+- caret - 6.0.86
 
 Preprint Link
 --------------------------------
@@ -40,7 +40,5 @@ Preprint Link
 
 Acknowledgements
 ----------------------------------------------
-* [Initiative for Biological Systems Engineering](https://ibse.iitm.ac.in/)
-* [Robert Bosch Centre for Data Science and Artificial Intelligence (RBCDSAI)](https://rbcdsai.iitm.ac.in/)
-
-<img title="IBSE logo" src="https://github.com/RBC-DSAI-IITM/rbc-dsai-iitm.github.io/blob/master/images/IBSE_logo.png" height="200" width="200"><img title="RBC-DSAI logo" src="https://github.com/RBC-DSAI-IITM/rbc-dsai-iitm.github.io/blob/master/images/logo.jpg" height="200" width="351">
+| `Initiative for Biological Systems Engineering <https://ibse.iitm.ac.in/>`_  
+|  `Robert Bosch Centre for Data Science and Artificial Intelligence (RBCDSAI) <https://rbcdsai.iitm.ac.in/>`_
