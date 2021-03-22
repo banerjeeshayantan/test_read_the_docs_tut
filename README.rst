@@ -1,6 +1,6 @@
 NBDriver
 =====================================
-NBDriver (**N** EIGH **B** ORHOOD **Driver**) is a tool used to differentiate between driver and passenger mutations using features derived from the neighborhood sequences of somatic mutations.
+NBDriver (*N*EIGH*B*ORHOOD*Driver*) is a tool used to differentiate between driver and passenger mutations using features derived from the neighborhood sequences of somatic mutations.
 
 Description
 -----------------------
